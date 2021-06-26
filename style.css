@@ -303,6 +303,7 @@ section{
     .project-box{
         flex-direction: column;
         align-items: center;
+        width: 80%;
     }
 
     .project{
@@ -350,6 +351,10 @@ section{
     
     .mobile-nav-icon{
         display: block;
+    }
+
+    .mobile-nav-icon i:hover{
+        color: hsla(182, 100%, 57%, 0.9);
     }
 
     .ion-ios-close{
