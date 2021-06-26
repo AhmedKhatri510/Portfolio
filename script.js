@@ -41,6 +41,28 @@ $(document).ready(function(){
         } // End if
       });
 
-      
+
+      //animation
+      $(".js--wp-1").waypoint(function(direction){
+        $('.js--wp-1').addClass('animate__backInDown');
+      },{
+          offset: '50%'
+      }
+      );
+
+      $(".js--wp-2").waypoint(function(direction){
+        $('.js--wp-2').addClass('animate__backInUp');
+      },{
+          offset: '60%'
+      }
+      );
+
+      $(".js--wp-3").waypoint(function(direction){
+        $('.js--wp-3').addClass('animate__pulse');
+      },{
+          offset: '50%'
+      }
+      );
+
 
 });
