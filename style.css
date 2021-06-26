@@ -241,6 +241,10 @@ section{
     color: rgba(255, 255, 255, 0.95);
 }
 
+.tech-skills__heading h2{
+    font-weight: 400;
+}
+
 /* -------------Contact-------------- */
 
 .footer-contact{
