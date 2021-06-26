@@ -89,7 +89,6 @@ header{
 /* ----------section------------- */
 section{
     padding: 30px 20px;
-    height: 100vh;
 }
 
 /* ----------project------------- */
@@ -108,7 +107,6 @@ section{
     height: 2px;
     background-color: hsla(182, 100%, 57%);
     margin-top: 20px;
-    
 }
 
 .project__heading h2{
@@ -147,13 +145,13 @@ section{
     border-radius: 50%;
     width: 25%;
     height: auto;
-    margin-top: -17%;
+    margin-top: -13%;
     margin-bottom: 20px;
 }
 
 .project__background img{
     width: 100%;
-    height: 90%;
+    height: 100%;
 }
 
 .project__content{
@@ -164,12 +162,74 @@ section{
 }
 
 .project__description{
-    height: 25vh;
+    height: 30vh;
     margin-bottom: 20px;
+    padding: 3%;
 
     /* problem at 730px */
 }
 
+.ion-logo-github{
+    font-size: 40px;
+    margin-top: auto;
+}
 
+
+/* ------------Tech Skills-------------- */
+
+.section-tech{
+    background: linear-gradient(to top left, hsla(182, 100%, 57%), white);
+}
+
+.tech-skills__heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 16vh;
+    margin-bottom: 20px;
+}
+
+.tech-skills__heading:after{
+    content:" ";
+    width: 100px;
+    height: 2px;
+    background-color: hsla(182, 100%, 57%);
+    margin-top: 20px;
+}
+
+.tech__icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tech__icon-icon{
+    font-size: 40px;
+}
+
+.tech__icon-icon:hover{
+    color: rgba(255, 255, 255, 0.95);
+}
+
+/* -------------Contact-------------- */
+
+.footer-contact{
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    align-items: center;
+    background: linear-gradient(to bottom left, black, white);
+}
+
+.social__icon{
+    font-size: 25px;
+}
+
+.social__icon-icons{
+    margin-right: 20px;
+}
+
+.social__icon a:last-child i{
+    margin-right: 0px;
+}
 
 
